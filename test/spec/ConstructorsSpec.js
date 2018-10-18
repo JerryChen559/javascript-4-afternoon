@@ -18,6 +18,7 @@ describe('Constructor functions', function() {
             expect(mustang.make).toEqual('Ford');
         })
     })
+
 // problem 2
     describe('Employee', function() {
         it('bob variable should exist', function() {
@@ -32,6 +33,7 @@ describe('Constructor functions', function() {
             expect(bob.hireDate).toEqual('01-02-98')
         })
     })
+
 // problem 3
 describe('Car', function () {
     it('should exist', function () {
@@ -58,6 +60,7 @@ describe('Car', function () {
         })
     })
 })
+
 // // problem 4
 // describe('Movie', function () {
 //     beforeEach(function() {
@@ -83,6 +86,7 @@ describe('Car', function () {
 //         })
 //     })
 // })
+
 // // problem 5
 // describe('User', function () {
 //     var posts = [{id: 1, title: 'Log Cabin', rating: 4}]
@@ -113,6 +117,7 @@ describe('Car', function () {
 //         })
 //     })
 // })
+
 // // problem 6
 // describe('removeSavedPost', function() {
 //     var posts = [{id: 1, title: 'Log Cabin', rating: 4}]
@@ -130,6 +135,7 @@ describe('Car', function () {
 //         expect(u.savedPosts.filter(e => e.id === 2).length).toBe(0)
 //     })
 // })
+
 // // problem 7
 // describe('changePostRating', function() {
 //     var posts = [{id: 1, title: 'Log Cabin', rating: 4}]
